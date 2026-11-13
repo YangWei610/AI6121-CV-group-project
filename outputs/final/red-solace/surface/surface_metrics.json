@@ -1,0 +1,44 @@
+{
+  "method": "multi-view projective truncated signed-distance fusion",
+  "input_npz": "stereo_samples_expanded.npz",
+  "input_stereo_samples": 1251248,
+  "foreground_stereo_samples": 921438,
+  "silhouette_views": 9,
+  "fused_depth_views": 35,
+  "minimum_supporting_depth_views": 2,
+  "voxel_size_in_sfm_units": 0.03,
+  "supported_grid_vertices": 129980,
+  "vertices": 34144,
+  "triangles": 63770,
+  "connected_components": 10,
+  "largest_component_triangle_count": 63199,
+  "largest_component_triangle_fraction": 0.9910459463697664,
+  "maximum_edge_in_sfm_units": 0.05182122297158201,
+  "watertight": false,
+  "ply_coordinates": "original SfM world coordinates",
+  "glb_coordinates": "centered and upright, Y-up",
+  "display_frame": {
+    "center": [
+      0.05032699927687645,
+      -0.49889299273490906,
+      8.03027629852295
+    ],
+    "rotation": [
+      [
+        -0.9978707283468882,
+        -0.005510344915254959,
+        -0.06498958076004092
+      ],
+      [
+        0.05246279591741862,
+        0.524201761665632,
+        -0.849976569154218
+      ],
+      [
+        0.03875131679024913,
+        -0.8515762732518815,
+        -0.5227965056132825
+      ]
+    ]
+  }
+}
