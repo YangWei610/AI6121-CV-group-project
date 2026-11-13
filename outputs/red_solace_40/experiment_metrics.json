@@ -1,0 +1,5583 @@
+{
+  "settings": {
+    "scene": "red-solace",
+    "input": "video",
+    "dataset": "D:\\Store\\Desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\AI6121-CV-group-project\\dataset",
+    "output_dir": "outputs\\red_solace_40",
+    "calibration": null,
+    "focal_factor": null,
+    "keyframes": null,
+    "uniform_keyframes": false,
+    "max_dim": 1280,
+    "features": 2400,
+    "feature_method": "rootsift",
+    "ablation": true,
+    "ratio": 0.78,
+    "matching": "auto",
+    "ransac_px": 2.5,
+    "min_inliers": 20,
+    "max_seeds": 4,
+    "threads": 6,
+    "no_ba": false,
+    "fixed_focal": false,
+    "no_densify": false
+  },
+  "experiments": {
+    "red_solace_video_rootsift": {
+      "num_total_images": 40,
+      "num_registered_images": 40,
+      "registration_rate": 1.0,
+      "num_3d_points": 12693,
+      "num_observations": 48557,
+      "track_3plus_fraction": 0.5562908689829039,
+      "mean_track_length": 3.8254943669739228,
+      "max_track_length": 19,
+      "mean_reproj_error_px": 0.697167773935448,
+      "median_reproj_error_px": 0.4975477867632736,
+      "rmse_reproj_error_px": 0.9604479714809963,
+      "pre_ba_mean_error_px": 0.7087582733390904,
+      "pre_ba_median_error_px": 0.5092490722026329,
+      "elapsed_sec": 7.81,
+      "num_candidate_pairs": 344,
+      "num_verified_pairs": 304,
+      "largest_match_component": 40,
+      "p90_reproj_error_px": 1.5267234387277975,
+      "median_image_grid_coverage": 0.6875,
+      "init_pair": [
+        "003_kf004_f0191.jpg",
+        "003_kf005_f0246.jpg"
+      ],
+      "seed_attempts": [
+        {
+          "seed": [
+            4,
+            5
+          ],
+          "probe_registered": 10,
+          "probe_tracks_3plus": 2465,
+          "median_angle_deg": 7.230507517909643,
+          "coverage": 0.726867016766903
+        },
+        {
+          "seed": [
+            16,
+            17
+          ],
+          "probe_registered": 10,
+          "probe_tracks_3plus": 2244,
+          "median_angle_deg": 4.3543965831484295,
+          "coverage": 0.5477448751415523
+        },
+        {
+          "seed": [
+            26,
+            27
+          ],
+          "probe_registered": 10,
+          "probe_tracks_3plus": 1819,
+          "median_angle_deg": 9.172987778920492,
+          "coverage": 0.6147748978927161
+        },
+        {
+          "seed": [
+            1,
+            39
+          ],
+          "probe_registered": 10,
+          "probe_tracks_3plus": 2314,
+          "median_angle_deg": 5.968543036263527,
+          "coverage": 0.553105544316141
+        }
+      ],
+      "num_seed_candidates": 154,
+      "num_feature_tracks": 14082,
+      "track_conflicts": 864,
+      "registration_retries": 0,
+      "bundle_adjustment": [
+        {
+          "mean_reproj_before": 0.9633720639742641,
+          "mean_reproj_after": 0.695414685055934,
+          "median_reproj_before": 0.5209486969765842,
+          "median_reproj_after": 0.5496605736317545,
+          "rmse_before": 1.4186856152393783,
+          "rmse_after": 0.8834740059476576,
+          "nfev": 12,
+          "status": 0,
+          "accepted": true,
+          "num_optimized_points": 1000,
+          "num_focal_groups": 1
+        },
+        {
+          "mean_reproj_before": 0.8410673608190877,
+          "mean_reproj_after": 0.7346941101092531,
+          "median_reproj_before": 0.6011139469642718,
+          "median_reproj_after": 0.5946723959987321,
+          "rmse_before": 1.130692168660509,
+          "rmse_after": 0.9233771528379912,
+          "nfev": 12,
+          "status": 0,
+          "accepted": true,
+          "num_optimized_points": 1000,
+          "num_focal_groups": 1
+        },
+        {
+          "mean_reproj_before": 0.8886881838481171,
+          "mean_reproj_after": 0.7944904233476318,
+          "median_reproj_before": 0.67172073599575,
+          "median_reproj_after": 0.641626573144658,
+          "rmse_before": 1.158376640972967,
+          "rmse_after": 0.9947735642989444,
+          "nfev": 12,
+          "status": 0,
+          "accepted": true,
+          "num_optimized_points": 1000,
+          "num_focal_groups": 1
+        },
+        {
+          "mean_reproj_before": 0.7955639626174399,
+          "mean_reproj_after": 0.7597820038529279,
+          "median_reproj_before": 0.6228281349600059,
+          "median_reproj_after": 0.6103886432112077,
+          "rmse_before": 1.0226816243836003,
+          "rmse_after": 0.9580106556107969,
+          "nfev": 24,
+          "status": 0,
+          "accepted": true,
+          "num_optimized_points": 1800,
+          "num_focal_groups": 1
+        }
+      ],
+      "views": [
+        {
+          "name": "003_kf000_f0000.jpg",
+          "frame_index": 0,
+          "timestamp_sec": 0.0,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf001_f0059.jpg",
+          "frame_index": 59,
+          "timestamp_sec": 0.9833333333333334,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf002_f0114.jpg",
+          "frame_index": 114,
+          "timestamp_sec": 1.9000000000000001,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf003_f0168.jpg",
+          "frame_index": 168,
+          "timestamp_sec": 2.8016666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf004_f0191.jpg",
+          "frame_index": 191,
+          "timestamp_sec": 3.185,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf005_f0246.jpg",
+          "frame_index": 246,
+          "timestamp_sec": 4.101666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf006_f0301.jpg",
+          "frame_index": 301,
+          "timestamp_sec": 5.0183333333333335,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf007_f0355.jpg",
+          "frame_index": 355,
+          "timestamp_sec": 5.918333333333334,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf008_f0410.jpg",
+          "frame_index": 410,
+          "timestamp_sec": 6.836666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf009_f0464.jpg",
+          "frame_index": 464,
+          "timestamp_sec": 7.736666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf010_f0519.jpg",
+          "frame_index": 519,
+          "timestamp_sec": 8.653333333333334,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf011_f0574.jpg",
+          "frame_index": 574,
+          "timestamp_sec": 9.57,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf012_f0628.jpg",
+          "frame_index": 628,
+          "timestamp_sec": 10.471666666666668,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf013_f0683.jpg",
+          "frame_index": 683,
+          "timestamp_sec": 11.388333333333334,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf014_f0738.jpg",
+          "frame_index": 738,
+          "timestamp_sec": 12.305000000000001,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf015_f0792.jpg",
+          "frame_index": 792,
+          "timestamp_sec": 13.205,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf016_f0847.jpg",
+          "frame_index": 847,
+          "timestamp_sec": 14.123333333333337,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf017_f0901.jpg",
+          "frame_index": 901,
+          "timestamp_sec": 15.023333333333333,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf018_f0988.jpg",
+          "frame_index": 988,
+          "timestamp_sec": 16.473333333333333,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf019_f1011.jpg",
+          "frame_index": 1011,
+          "timestamp_sec": 16.85666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf020_f1065.jpg",
+          "frame_index": 1065,
+          "timestamp_sec": 17.756666666666668,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf021_f1120.jpg",
+          "frame_index": 1120,
+          "timestamp_sec": 18.675,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf022_f1174.jpg",
+          "frame_index": 1174,
+          "timestamp_sec": 19.575000000000003,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf023_f1229.jpg",
+          "frame_index": 1229,
+          "timestamp_sec": 20.491666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf024_f1337.jpg",
+          "frame_index": 1337,
+          "timestamp_sec": 22.293333333333333,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf025_f1365.jpg",
+          "frame_index": 1365,
+          "timestamp_sec": 22.76,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf026_f1393.jpg",
+          "frame_index": 1393,
+          "timestamp_sec": 23.226666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf027_f1448.jpg",
+          "frame_index": 1448,
+          "timestamp_sec": 24.143333333333334,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf028_f1502.jpg",
+          "frame_index": 1502,
+          "timestamp_sec": 25.043333333333337,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf029_f1557.jpg",
+          "frame_index": 1557,
+          "timestamp_sec": 25.96166666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf030_f1611.jpg",
+          "frame_index": 1611,
+          "timestamp_sec": 26.861666666666668,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf031_f1666.jpg",
+          "frame_index": 1666,
+          "timestamp_sec": 27.778333333333336,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf032_f1721.jpg",
+          "frame_index": 1721,
+          "timestamp_sec": 28.695,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf033_f1775.jpg",
+          "frame_index": 1775,
+          "timestamp_sec": 29.595000000000002,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf034_f1830.jpg",
+          "frame_index": 1830,
+          "timestamp_sec": 30.513333333333335,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf035_f1884.jpg",
+          "frame_index": 1884,
+          "timestamp_sec": 31.413333333333334,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf036_f1939.jpg",
+          "frame_index": 1939,
+          "timestamp_sec": 32.330000000000005,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf037_f1994.jpg",
+          "frame_index": 1994,
+          "timestamp_sec": 33.24666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf038_f2048.jpg",
+          "frame_index": 2048,
+          "timestamp_sec": 34.14833333333333,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf039_f2103.jpg",
+          "frame_index": 2103,
+          "timestamp_sec": 35.065000000000005,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1215.8186904897773,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1215.8186904897773,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "keyframe_selection": {
+        "selected_sharpness": [
+          1028.5257568359375,
+          984.7672119140625,
+          986.548828125,
+          1023.4335327148438,
+          988.5332641601562,
+          1028.767578125,
+          1043.7672119140625,
+          1206.6552734375,
+          1146.8153076171875,
+          1290.1539306640625,
+          1135.02880859375,
+          626.1884765625,
+          892.2023315429688,
+          1008.64990234375,
+          849.3757934570312,
+          754.820068359375,
+          995.5820922851562,
+          1151.3533935546875,
+          1124.2431640625,
+          1050.1448974609375,
+          1053.54833984375,
+          477.87469482421875,
+          735.45361328125,
+          875.0436401367188,
+          1077.5789794921875,
+          645.7572631835938,
+          1020.4344482421875,
+          998.1626586914062,
+          1080.6846923828125,
+          980.7383422851562,
+          873.2692260742188,
+          951.6785888671875,
+          1136.548095703125,
+          1050.73095703125,
+          865.15673828125,
+          888.0277709960938,
+          835.0849609375,
+          842.9003295898438,
+          920.6212158203125,
+          914.3419189453125
+        ],
+        "naive_sharpness": [
+          1028.5257568359375,
+          999.979248046875,
+          1000.1607666015625,
+          1001.7634887695312,
+          1013.4579467773438,
+          1039.040771484375,
+          1029.8533935546875,
+          1303.8826904296875,
+          1392.2137451171875,
+          1107.3994140625,
+          817.6062622070312,
+          938.9649047851562,
+          743.0667724609375,
+          775.4424438476562,
+          1108.762939453125,
+          966.2886352539062,
+          1126.7696533203125,
+          1168.9488525390625,
+          1134.0931396484375,
+          1001.0916137695312,
+          1079.7001953125,
+          1039.881103515625,
+          630.4645385742188,
+          831.8888549804688,
+          672.2003173828125,
+          645.7572631835938,
+          818.9788818359375,
+          1226.8502197265625,
+          1193.551025390625,
+          574.3377685546875,
+          997.5411376953125,
+          887.4891357421875,
+          929.4105224609375,
+          880.9640502929688,
+          998.5902099609375,
+          877.8291015625,
+          851.6228637695312,
+          900.1261596679688,
+          909.8109741210938,
+          1010.350830078125
+        ],
+        "selected_overlap": [
+          0.916,
+          0.784,
+          0.86,
+          0.936,
+          0.64,
+          0.256,
+          0.176,
+          0.144,
+          0.084,
+          0.12,
+          0.084,
+          0.208,
+          0.076,
+          0.048,
+          0.344,
+          0.444,
+          0.756,
+          0.968,
+          0.868,
+          0.684,
+          0.108,
+          0.084,
+          0.076,
+          0.008,
+          0.928,
+          0.9,
+          0.76,
+          0.736,
+          0.34,
+          0.312,
+          0.452,
+          0.212,
+          0.108,
+          0.06,
+          0.296,
+          0.308,
+          0.388,
+          0.38,
+          0.504
+        ],
+        "selected_motion_px": [
+          10.455477714538574,
+          15.314663887023926,
+          14.08410930633545,
+          5.346260070800781,
+          24.721172332763672,
+          16.920690536499023,
+          42.99250030517578,
+          38.165069580078125,
+          58.614341735839844,
+          56.57714080810547,
+          67.90835571289062,
+          51.62738800048828,
+          48.20120620727539,
+          24.620485305786133,
+          27.094158172607422,
+          21.30034065246582,
+          11.963296890258789,
+          3.7661690711975098,
+          4.321396350860596,
+          18.77552032470703,
+          21.940547943115234,
+          40.48955154418945,
+          61.277584075927734,
+          72.74800109863281,
+          29.80508041381836,
+          17.606775283813477,
+          20.244007110595703,
+          30.951168060302734,
+          27.409038543701172,
+          29.118606567382812,
+          45.46265411376953,
+          48.71110916137695,
+          50.88087844848633,
+          32.66962432861328,
+          31.811798095703125,
+          24.529617309570312,
+          15.345911026000977,
+          15.931500434875488,
+          12.55336856842041
+        ]
+      },
+      "feature_method": "rootsift",
+      "reconstruction_sec": 37.23,
+      "num_semi_dense_points": 16481,
+      "semi_dense_sec": 13.82,
+      "semi_dense_status": "completed"
+    },
+    "red_solace_video_sift": {
+      "num_total_images": 40,
+      "num_registered_images": 40,
+      "registration_rate": 1.0,
+      "num_3d_points": 12374,
+      "num_observations": 46479,
+      "track_3plus_fraction": 0.5497818005495394,
+      "mean_track_length": 3.756182317763052,
+      "max_track_length": 19,
+      "mean_reproj_error_px": 0.7575631651137738,
+      "median_reproj_error_px": 0.5452831367075558,
+      "rmse_reproj_error_px": 1.0304911469175881,
+      "pre_ba_mean_error_px": 0.7828951636885013,
+      "pre_ba_median_error_px": 0.570121459999821,
+      "elapsed_sec": 7.1,
+      "num_candidate_pairs": 681,
+      "num_verified_pairs": 297,
+      "largest_match_component": 40,
+      "p90_reproj_error_px": 1.654005375212417,
+      "median_image_grid_coverage": 0.7109375,
+      "init_pair": [
+        "003_kf038_f2048.jpg",
+        "003_kf039_f2103.jpg"
+      ],
+      "seed_attempts": [
+        {
+          "seed": [
+            4,
+            5
+          ],
+          "probe_registered": 10,
+          "probe_tracks_3plus": 2406,
+          "median_angle_deg": 7.185490454077562,
+          "coverage": 0.7310220141282467
+        },
+        {
+          "seed": [
+            16,
+            19
+          ],
+          "probe_registered": 10,
+          "probe_tracks_3plus": 2306,
+          "median_angle_deg": 7.541563764964544,
+          "coverage": 0.6056828145651248
+        },
+        {
+          "seed": [
+            24,
+            26
+          ],
+          "probe_registered": 10,
+          "probe_tracks_3plus": 1667,
+          "median_angle_deg": 7.224939679971091,
+          "coverage": 0.49975732318406624
+        },
+        {
+          "seed": [
+            38,
+            39
+          ],
+          "probe_registered": 10,
+          "probe_tracks_3plus": 2420,
+          "median_angle_deg": 7.79139775437173,
+          "coverage": 0.6358007615282655
+        }
+      ],
+      "num_seed_candidates": 153,
+      "num_feature_tracks": 13871,
+      "track_conflicts": 769,
+      "registration_retries": 0,
+      "bundle_adjustment": [
+        {
+          "mean_reproj_before": 1.17389513238894,
+          "mean_reproj_after": 0.7996413048558968,
+          "median_reproj_before": 0.9303104937003694,
+          "median_reproj_after": 0.6253954348232996,
+          "rmse_before": 1.5414488591401667,
+          "rmse_after": 1.026901257731705,
+          "nfev": 12,
+          "status": 0,
+          "accepted": true,
+          "num_optimized_points": 1000,
+          "num_focal_groups": 1
+        },
+        {
+          "mean_reproj_before": 0.8752514523657771,
+          "mean_reproj_after": 0.76498733208577,
+          "median_reproj_before": 0.6455215248568503,
+          "median_reproj_after": 0.605776707965277,
+          "rmse_before": 1.1627273820457518,
+          "rmse_after": 0.9737120456684193,
+          "nfev": 12,
+          "status": 0,
+          "accepted": true,
+          "num_optimized_points": 1000,
+          "num_focal_groups": 1
+        },
+        {
+          "mean_reproj_before": 0.9159790080368864,
+          "mean_reproj_after": 0.8236462182161662,
+          "median_reproj_before": 0.6894968359342204,
+          "median_reproj_after": 0.6656097439235171,
+          "rmse_before": 1.2003429841672308,
+          "rmse_after": 1.0338620288315254,
+          "nfev": 12,
+          "status": 0,
+          "accepted": true,
+          "num_optimized_points": 1000,
+          "num_focal_groups": 1
+        },
+        {
+          "mean_reproj_before": 0.8692751566552863,
+          "mean_reproj_after": 0.8193009986417326,
+          "median_reproj_before": 0.6836581850435594,
+          "median_reproj_after": 0.6581857704066557,
+          "rmse_before": 1.112864511578376,
+          "rmse_after": 1.0309223360042317,
+          "nfev": 24,
+          "status": 0,
+          "accepted": true,
+          "num_optimized_points": 1800,
+          "num_focal_groups": 1
+        }
+      ],
+      "views": [
+        {
+          "name": "003_kf000_f0000.jpg",
+          "frame_index": 0,
+          "timestamp_sec": 0.0,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf001_f0059.jpg",
+          "frame_index": 59,
+          "timestamp_sec": 0.9833333333333334,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf002_f0114.jpg",
+          "frame_index": 114,
+          "timestamp_sec": 1.9000000000000001,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf003_f0168.jpg",
+          "frame_index": 168,
+          "timestamp_sec": 2.8016666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf004_f0191.jpg",
+          "frame_index": 191,
+          "timestamp_sec": 3.185,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf005_f0246.jpg",
+          "frame_index": 246,
+          "timestamp_sec": 4.101666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf006_f0301.jpg",
+          "frame_index": 301,
+          "timestamp_sec": 5.0183333333333335,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf007_f0355.jpg",
+          "frame_index": 355,
+          "timestamp_sec": 5.918333333333334,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf008_f0410.jpg",
+          "frame_index": 410,
+          "timestamp_sec": 6.836666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf009_f0464.jpg",
+          "frame_index": 464,
+          "timestamp_sec": 7.736666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf010_f0519.jpg",
+          "frame_index": 519,
+          "timestamp_sec": 8.653333333333334,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf011_f0574.jpg",
+          "frame_index": 574,
+          "timestamp_sec": 9.57,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf012_f0628.jpg",
+          "frame_index": 628,
+          "timestamp_sec": 10.471666666666668,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf013_f0683.jpg",
+          "frame_index": 683,
+          "timestamp_sec": 11.388333333333334,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf014_f0738.jpg",
+          "frame_index": 738,
+          "timestamp_sec": 12.305000000000001,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf015_f0792.jpg",
+          "frame_index": 792,
+          "timestamp_sec": 13.205,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf016_f0847.jpg",
+          "frame_index": 847,
+          "timestamp_sec": 14.123333333333337,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf017_f0901.jpg",
+          "frame_index": 901,
+          "timestamp_sec": 15.023333333333333,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf018_f0988.jpg",
+          "frame_index": 988,
+          "timestamp_sec": 16.473333333333333,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf019_f1011.jpg",
+          "frame_index": 1011,
+          "timestamp_sec": 16.85666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf020_f1065.jpg",
+          "frame_index": 1065,
+          "timestamp_sec": 17.756666666666668,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf021_f1120.jpg",
+          "frame_index": 1120,
+          "timestamp_sec": 18.675,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf022_f1174.jpg",
+          "frame_index": 1174,
+          "timestamp_sec": 19.575000000000003,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf023_f1229.jpg",
+          "frame_index": 1229,
+          "timestamp_sec": 20.491666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf024_f1337.jpg",
+          "frame_index": 1337,
+          "timestamp_sec": 22.293333333333333,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf025_f1365.jpg",
+          "frame_index": 1365,
+          "timestamp_sec": 22.76,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf026_f1393.jpg",
+          "frame_index": 1393,
+          "timestamp_sec": 23.226666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf027_f1448.jpg",
+          "frame_index": 1448,
+          "timestamp_sec": 24.143333333333334,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf028_f1502.jpg",
+          "frame_index": 1502,
+          "timestamp_sec": 25.043333333333337,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf029_f1557.jpg",
+          "frame_index": 1557,
+          "timestamp_sec": 25.96166666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf030_f1611.jpg",
+          "frame_index": 1611,
+          "timestamp_sec": 26.861666666666668,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf031_f1666.jpg",
+          "frame_index": 1666,
+          "timestamp_sec": 27.778333333333336,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf032_f1721.jpg",
+          "frame_index": 1721,
+          "timestamp_sec": 28.695,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf033_f1775.jpg",
+          "frame_index": 1775,
+          "timestamp_sec": 29.595000000000002,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf034_f1830.jpg",
+          "frame_index": 1830,
+          "timestamp_sec": 30.513333333333335,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf035_f1884.jpg",
+          "frame_index": 1884,
+          "timestamp_sec": 31.413333333333334,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf036_f1939.jpg",
+          "frame_index": 1939,
+          "timestamp_sec": 32.330000000000005,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf037_f1994.jpg",
+          "frame_index": 1994,
+          "timestamp_sec": 33.24666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf038_f2048.jpg",
+          "frame_index": 2048,
+          "timestamp_sec": 34.14833333333333,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf039_f2103.jpg",
+          "frame_index": 2103,
+          "timestamp_sec": 35.065000000000005,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1214.8877405697401,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1214.8877405697401,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "keyframe_selection": {
+        "selected_sharpness": [
+          1028.5257568359375,
+          984.7672119140625,
+          986.548828125,
+          1023.4335327148438,
+          988.5332641601562,
+          1028.767578125,
+          1043.7672119140625,
+          1206.6552734375,
+          1146.8153076171875,
+          1290.1539306640625,
+          1135.02880859375,
+          626.1884765625,
+          892.2023315429688,
+          1008.64990234375,
+          849.3757934570312,
+          754.820068359375,
+          995.5820922851562,
+          1151.3533935546875,
+          1124.2431640625,
+          1050.1448974609375,
+          1053.54833984375,
+          477.87469482421875,
+          735.45361328125,
+          875.0436401367188,
+          1077.5789794921875,
+          645.7572631835938,
+          1020.4344482421875,
+          998.1626586914062,
+          1080.6846923828125,
+          980.7383422851562,
+          873.2692260742188,
+          951.6785888671875,
+          1136.548095703125,
+          1050.73095703125,
+          865.15673828125,
+          888.0277709960938,
+          835.0849609375,
+          842.9003295898438,
+          920.6212158203125,
+          914.3419189453125
+        ],
+        "naive_sharpness": [
+          1028.5257568359375,
+          999.979248046875,
+          1000.1607666015625,
+          1001.7634887695312,
+          1013.4579467773438,
+          1039.040771484375,
+          1029.8533935546875,
+          1303.8826904296875,
+          1392.2137451171875,
+          1107.3994140625,
+          817.6062622070312,
+          938.9649047851562,
+          743.0667724609375,
+          775.4424438476562,
+          1108.762939453125,
+          966.2886352539062,
+          1126.7696533203125,
+          1168.9488525390625,
+          1134.0931396484375,
+          1001.0916137695312,
+          1079.7001953125,
+          1039.881103515625,
+          630.4645385742188,
+          831.8888549804688,
+          672.2003173828125,
+          645.7572631835938,
+          818.9788818359375,
+          1226.8502197265625,
+          1193.551025390625,
+          574.3377685546875,
+          997.5411376953125,
+          887.4891357421875,
+          929.4105224609375,
+          880.9640502929688,
+          998.5902099609375,
+          877.8291015625,
+          851.6228637695312,
+          900.1261596679688,
+          909.8109741210938,
+          1010.350830078125
+        ],
+        "selected_overlap": [
+          0.916,
+          0.784,
+          0.86,
+          0.936,
+          0.64,
+          0.256,
+          0.176,
+          0.144,
+          0.084,
+          0.12,
+          0.084,
+          0.208,
+          0.076,
+          0.048,
+          0.344,
+          0.444,
+          0.756,
+          0.968,
+          0.868,
+          0.684,
+          0.108,
+          0.084,
+          0.076,
+          0.008,
+          0.928,
+          0.9,
+          0.76,
+          0.736,
+          0.34,
+          0.312,
+          0.452,
+          0.212,
+          0.108,
+          0.06,
+          0.296,
+          0.308,
+          0.388,
+          0.38,
+          0.504
+        ],
+        "selected_motion_px": [
+          10.455477714538574,
+          15.314663887023926,
+          14.08410930633545,
+          5.346260070800781,
+          24.721172332763672,
+          16.920690536499023,
+          42.99250030517578,
+          38.165069580078125,
+          58.614341735839844,
+          56.57714080810547,
+          67.90835571289062,
+          51.62738800048828,
+          48.20120620727539,
+          24.620485305786133,
+          27.094158172607422,
+          21.30034065246582,
+          11.963296890258789,
+          3.7661690711975098,
+          4.321396350860596,
+          18.77552032470703,
+          21.940547943115234,
+          40.48955154418945,
+          61.277584075927734,
+          72.74800109863281,
+          29.80508041381836,
+          17.606775283813477,
+          20.244007110595703,
+          30.951168060302734,
+          27.409038543701172,
+          29.118606567382812,
+          45.46265411376953,
+          48.71110916137695,
+          50.88087844848633,
+          32.66962432861328,
+          31.811798095703125,
+          24.529617309570312,
+          15.345911026000977,
+          15.931500434875488,
+          12.55336856842041
+        ]
+      },
+      "feature_method": "sift",
+      "reconstruction_sec": 28.6
+    },
+    "red_solace_video_orb": {
+      "num_total_images": 40,
+      "num_registered_images": 18,
+      "registration_rate": 0.45,
+      "num_3d_points": 4250,
+      "num_observations": 15063,
+      "track_3plus_fraction": 0.54,
+      "mean_track_length": 3.544235294117647,
+      "max_track_length": 16,
+      "mean_reproj_error_px": 0.8903089036008147,
+      "median_reproj_error_px": 0.7030980853074494,
+      "rmse_reproj_error_px": 1.150709648726958,
+      "pre_ba_mean_error_px": 0.890047498449004,
+      "pre_ba_median_error_px": 0.7046779850734353,
+      "elapsed_sec": 3.35,
+      "num_candidate_pairs": 559,
+      "num_verified_pairs": 239,
+      "largest_match_component": 40,
+      "p90_reproj_error_px": 1.8041998279375837,
+      "median_image_grid_coverage": 0.515625,
+      "init_pair": [
+        "003_kf003_f0168.jpg",
+        "003_kf005_f0246.jpg"
+      ],
+      "seed_attempts": [
+        {
+          "seed": [
+            17,
+            18
+          ],
+          "probe_registered": 10,
+          "probe_tracks_3plus": 1718,
+          "median_angle_deg": 5.425853450085745,
+          "coverage": 0.43783119753842914
+        },
+        {
+          "seed": [
+            3,
+            5
+          ],
+          "probe_registered": 10,
+          "probe_tracks_3plus": 2002,
+          "median_angle_deg": 6.926008459881984,
+          "coverage": 0.5456015864581292
+        },
+        {
+          "seed": [
+            19,
+            20
+          ],
+          "probe_registered": 10,
+          "probe_tracks_3plus": 1859,
+          "median_angle_deg": 6.00457157238275,
+          "coverage": 0.3186664213029232
+        },
+        {
+          "seed": [
+            26,
+            27
+          ],
+          "probe_registered": 10,
+          "probe_tracks_3plus": 1405,
+          "median_angle_deg": 8.295287389163576,
+          "coverage": 0.36496878107296704
+        }
+      ],
+      "num_seed_candidates": 138,
+      "num_feature_tracks": 12366,
+      "track_conflicts": 4516,
+      "registration_retries": 1,
+      "bundle_adjustment": [
+        {
+          "mean_reproj_before": 1.1443675676005718,
+          "mean_reproj_after": 0.8924121494759292,
+          "median_reproj_before": 0.8235578879759928,
+          "median_reproj_after": 0.743777928022103,
+          "rmse_before": 1.521607799606648,
+          "rmse_after": 1.0957382747177153,
+          "nfev": 16,
+          "status": 0,
+          "accepted": true,
+          "num_optimized_points": 1800,
+          "num_focal_groups": 1
+        },
+        {
+          "mean_reproj_before": 0.8786016868679755,
+          "mean_reproj_after": 0.8505881643967962,
+          "median_reproj_before": 0.7395157255351198,
+          "median_reproj_after": 0.7251142263862403,
+          "rmse_before": 1.0734884605799198,
+          "rmse_after": 1.0283634840244098,
+          "nfev": 24,
+          "status": 0,
+          "accepted": true,
+          "num_optimized_points": 1800,
+          "num_focal_groups": 1
+        }
+      ],
+      "views": [
+        {
+          "name": "003_kf000_f0000.jpg",
+          "frame_index": 0,
+          "timestamp_sec": 0.0,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1216.0138913385663,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0138913385663,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf001_f0059.jpg",
+          "frame_index": 59,
+          "timestamp_sec": 0.9833333333333334,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1216.0138913385663,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0138913385663,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf002_f0114.jpg",
+          "frame_index": 114,
+          "timestamp_sec": 1.9000000000000001,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1216.0138913385663,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0138913385663,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf003_f0168.jpg",
+          "frame_index": 168,
+          "timestamp_sec": 2.8016666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1216.0138913385663,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0138913385663,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf004_f0191.jpg",
+          "frame_index": 191,
+          "timestamp_sec": 3.185,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1216.0138913385663,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0138913385663,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf005_f0246.jpg",
+          "frame_index": 246,
+          "timestamp_sec": 4.101666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1216.0138913385663,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0138913385663,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf006_f0301.jpg",
+          "frame_index": 301,
+          "timestamp_sec": 5.0183333333333335,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1216.0138913385663,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0138913385663,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf007_f0355.jpg",
+          "frame_index": 355,
+          "timestamp_sec": 5.918333333333334,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1216.0138913385663,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0138913385663,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf008_f0410.jpg",
+          "frame_index": 410,
+          "timestamp_sec": 6.836666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1216.0138913385663,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0138913385663,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf009_f0464.jpg",
+          "frame_index": 464,
+          "timestamp_sec": 7.736666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1216.0138913385663,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0138913385663,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf010_f0519.jpg",
+          "frame_index": 519,
+          "timestamp_sec": 8.653333333333334,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1216.0138913385663,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0138913385663,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf011_f0574.jpg",
+          "frame_index": 574,
+          "timestamp_sec": 9.57,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf012_f0628.jpg",
+          "frame_index": 628,
+          "timestamp_sec": 10.471666666666668,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf013_f0683.jpg",
+          "frame_index": 683,
+          "timestamp_sec": 11.388333333333334,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf014_f0738.jpg",
+          "frame_index": 738,
+          "timestamp_sec": 12.305000000000001,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf015_f0792.jpg",
+          "frame_index": 792,
+          "timestamp_sec": 13.205,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf016_f0847.jpg",
+          "frame_index": 847,
+          "timestamp_sec": 14.123333333333337,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf017_f0901.jpg",
+          "frame_index": 901,
+          "timestamp_sec": 15.023333333333333,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf018_f0988.jpg",
+          "frame_index": 988,
+          "timestamp_sec": 16.473333333333333,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf019_f1011.jpg",
+          "frame_index": 1011,
+          "timestamp_sec": 16.85666666666667,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf020_f1065.jpg",
+          "frame_index": 1065,
+          "timestamp_sec": 17.756666666666668,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf021_f1120.jpg",
+          "frame_index": 1120,
+          "timestamp_sec": 18.675,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf022_f1174.jpg",
+          "frame_index": 1174,
+          "timestamp_sec": 19.575000000000003,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf023_f1229.jpg",
+          "frame_index": 1229,
+          "timestamp_sec": 20.491666666666667,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf024_f1337.jpg",
+          "frame_index": 1337,
+          "timestamp_sec": 22.293333333333333,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf025_f1365.jpg",
+          "frame_index": 1365,
+          "timestamp_sec": 22.76,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf026_f1393.jpg",
+          "frame_index": 1393,
+          "timestamp_sec": 23.226666666666667,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf027_f1448.jpg",
+          "frame_index": 1448,
+          "timestamp_sec": 24.143333333333334,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf028_f1502.jpg",
+          "frame_index": 1502,
+          "timestamp_sec": 25.043333333333337,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf029_f1557.jpg",
+          "frame_index": 1557,
+          "timestamp_sec": 25.96166666666667,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf030_f1611.jpg",
+          "frame_index": 1611,
+          "timestamp_sec": 26.861666666666668,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf031_f1666.jpg",
+          "frame_index": 1666,
+          "timestamp_sec": 27.778333333333336,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf032_f1721.jpg",
+          "frame_index": 1721,
+          "timestamp_sec": 28.695,
+          "registered": false,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": null
+        },
+        {
+          "name": "003_kf033_f1775.jpg",
+          "frame_index": 1775,
+          "timestamp_sec": 29.595000000000002,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1216.0138913385663,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0138913385663,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf034_f1830.jpg",
+          "frame_index": 1830,
+          "timestamp_sec": 30.513333333333335,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1216.0138913385663,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0138913385663,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf035_f1884.jpg",
+          "frame_index": 1884,
+          "timestamp_sec": 31.413333333333334,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1216.0138913385663,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0138913385663,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf036_f1939.jpg",
+          "frame_index": 1939,
+          "timestamp_sec": 32.330000000000005,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1216.0138913385663,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0138913385663,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf037_f1994.jpg",
+          "frame_index": 1994,
+          "timestamp_sec": 33.24666666666667,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1216.0138913385663,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0138913385663,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf038_f2048.jpg",
+          "frame_index": 2048,
+          "timestamp_sec": 34.14833333333333,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1216.0138913385663,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0138913385663,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "003_kf039_f2103.jpg",
+          "frame_index": 2103,
+          "timestamp_sec": 35.065000000000005,
+          "registered": true,
+          "camera_group": "d:\\store\\desktop\\\u7559\u5b66\\\u8bfe\u7a0b\u6750\u6599\\6121\\ai6121-cv-group-project\\dataset\\red_solace\\video\\003.mp4:1280x720",
+          "intrinsics_source": "focal_prior",
+          "initial_K": [
+            [
+              1216.0,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "final_K": [
+            [
+              1216.0138913385663,
+              0.0,
+              640.0
+            ],
+            [
+              0.0,
+              1216.0138913385663,
+              360.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "keyframe_selection": {
+        "selected_sharpness": [
+          1028.5257568359375,
+          984.7672119140625,
+          986.548828125,
+          1023.4335327148438,
+          988.5332641601562,
+          1028.767578125,
+          1043.7672119140625,
+          1206.6552734375,
+          1146.8153076171875,
+          1290.1539306640625,
+          1135.02880859375,
+          626.1884765625,
+          892.2023315429688,
+          1008.64990234375,
+          849.3757934570312,
+          754.820068359375,
+          995.5820922851562,
+          1151.3533935546875,
+          1124.2431640625,
+          1050.1448974609375,
+          1053.54833984375,
+          477.87469482421875,
+          735.45361328125,
+          875.0436401367188,
+          1077.5789794921875,
+          645.7572631835938,
+          1020.4344482421875,
+          998.1626586914062,
+          1080.6846923828125,
+          980.7383422851562,
+          873.2692260742188,
+          951.6785888671875,
+          1136.548095703125,
+          1050.73095703125,
+          865.15673828125,
+          888.0277709960938,
+          835.0849609375,
+          842.9003295898438,
+          920.6212158203125,
+          914.3419189453125
+        ],
+        "naive_sharpness": [
+          1028.5257568359375,
+          999.979248046875,
+          1000.1607666015625,
+          1001.7634887695312,
+          1013.4579467773438,
+          1039.040771484375,
+          1029.8533935546875,
+          1303.8826904296875,
+          1392.2137451171875,
+          1107.3994140625,
+          817.6062622070312,
+          938.9649047851562,
+          743.0667724609375,
+          775.4424438476562,
+          1108.762939453125,
+          966.2886352539062,
+          1126.7696533203125,
+          1168.9488525390625,
+          1134.0931396484375,
+          1001.0916137695312,
+          1079.7001953125,
+          1039.881103515625,
+          630.4645385742188,
+          831.8888549804688,
+          672.2003173828125,
+          645.7572631835938,
+          818.9788818359375,
+          1226.8502197265625,
+          1193.551025390625,
+          574.3377685546875,
+          997.5411376953125,
+          887.4891357421875,
+          929.4105224609375,
+          880.9640502929688,
+          998.5902099609375,
+          877.8291015625,
+          851.6228637695312,
+          900.1261596679688,
+          909.8109741210938,
+          1010.350830078125
+        ],
+        "selected_overlap": [
+          0.916,
+          0.784,
+          0.86,
+          0.936,
+          0.64,
+          0.256,
+          0.176,
+          0.144,
+          0.084,
+          0.12,
+          0.084,
+          0.208,
+          0.076,
+          0.048,
+          0.344,
+          0.444,
+          0.756,
+          0.968,
+          0.868,
+          0.684,
+          0.108,
+          0.084,
+          0.076,
+          0.008,
+          0.928,
+          0.9,
+          0.76,
+          0.736,
+          0.34,
+          0.312,
+          0.452,
+          0.212,
+          0.108,
+          0.06,
+          0.296,
+          0.308,
+          0.388,
+          0.38,
+          0.504
+        ],
+        "selected_motion_px": [
+          10.455477714538574,
+          15.314663887023926,
+          14.08410930633545,
+          5.346260070800781,
+          24.721172332763672,
+          16.920690536499023,
+          42.99250030517578,
+          38.165069580078125,
+          58.614341735839844,
+          56.57714080810547,
+          67.90835571289062,
+          51.62738800048828,
+          48.20120620727539,
+          24.620485305786133,
+          27.094158172607422,
+          21.30034065246582,
+          11.963296890258789,
+          3.7661690711975098,
+          4.321396350860596,
+          18.77552032470703,
+          21.940547943115234,
+          40.48955154418945,
+          61.277584075927734,
+          72.74800109863281,
+          29.80508041381836,
+          17.606775283813477,
+          20.244007110595703,
+          30.951168060302734,
+          27.409038543701172,
+          29.118606567382812,
+          45.46265411376953,
+          48.71110916137695,
+          50.88087844848633,
+          32.66962432861328,
+          31.811798095703125,
+          24.529617309570312,
+          15.345911026000977,
+          15.931500434875488,
+          12.55336856842041
+        ]
+      },
+      "feature_method": "orb",
+      "reconstruction_sec": 17.29
+    }
+  }
+}
