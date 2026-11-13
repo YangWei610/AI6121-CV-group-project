@@ -1,0 +1,51 @@
+{
+  "method": "Local triangulation in the original image of cross-view-checked stereo depth",
+  "scope": "Observed surface patch of the visible ribs and base; sides outside the selected view and unsupported gaps remain open",
+  "archived_pose_source": "Fern 002 and 004 archived replay",
+  "reference_view": 34,
+  "reference_keyframe": "004_kf009_f0662.jpg",
+  "stereo_pair_view_indices": [
+    [
+      34,
+      33
+    ]
+  ],
+  "candidate_stereo_reference_count": 17,
+  "reference_depth_samples_before_subject_crop": 15855,
+  "maximum_image_edge_px": 7.5,
+  "maximum_3d_edge_in_sfm_units": 0.14798580507890957,
+  "vertices": 13050,
+  "triangles": 22557,
+  "connected_components": 36,
+  "watertight": false,
+  "preview": {
+    "azimuth": 0,
+    "elevation": 9.2157825519775
+  },
+  "display_frame": {
+    "center": [
+      -2.8920469284057617,
+      0.4438619911670685,
+      9.441880226135254
+    ],
+    "rotation": [
+      [
+        0.9699349674252936,
+        0.07058307079346209,
+        0.2329038193827226
+      ],
+      [
+        -0.22223127682400218,
+        -0.13319202599819713,
+        0.9658535830091791
+      ],
+      [
+        0.09919384339195891,
+        -0.9885736767322204,
+        -0.11350183745328012
+      ]
+    ]
+  },
+  "ply_coordinates": "archived replay SfM world coordinates",
+  "glb_coordinates": "upright Y-up, turned toward the source camera"
+}
