@@ -1,0 +1,6197 @@
+{
+  "source_video": "dataset/Fern/video/006.mp4",
+  "opencv_version": "4.12.0",
+  "fps": 59.97564295436636,
+  "original_gap_source_frame_indices": [
+    678,
+    3595
+  ],
+  "target_slots": [
+    13,
+    15,
+    17,
+    19,
+    21,
+    23,
+    25,
+    27,
+    29,
+    31,
+    33,
+    35,
+    37,
+    39,
+    41,
+    43,
+    45,
+    47,
+    49,
+    51,
+    53,
+    55,
+    57,
+    59
+  ],
+  "selection": "Nine potential frame indices linearly spaced between the two fixed neighbors, excluding all baseline indices. Maximize the weaker adjacent optical-flow overlap, requiring an improvement over the original, at least 90% of its sharpness and no near duplicates.",
+  "settings": {
+    "keyframes": 72,
+    "max_dim": 1280,
+    "descriptor": "RootSIFT",
+    "features": 2400,
+    "ratio": 0.78,
+    "matching": "sequential_loop",
+    "ransac_px": 2.5,
+    "min_inliers": 20,
+    "max_seeds": 4,
+    "initial_focal_factor": 0.95,
+    "bundle_adjustment": true,
+    "refine_shared_focal": true,
+    "cv2_threads": 6
+  },
+  "replacements": [
+    {
+      "slot": 13,
+      "original_frame": 795,
+      "replacement_frame": 693,
+      "original_min_overlap": 0.124,
+      "replacement_min_overlap": 0.32,
+      "original_sharpness": 976.1432495117188,
+      "replacement_sharpness": 913.9756469726562
+    },
+    {
+      "slot": 21,
+      "original_frame": 1208,
+      "replacement_frame": 1222,
+      "original_min_overlap": 0.156,
+      "replacement_min_overlap": 0.216,
+      "original_sharpness": 1939.210205078125,
+      "replacement_sharpness": 1981.3538818359375
+    },
+    {
+      "slot": 23,
+      "original_frame": 1384,
+      "replacement_frame": 1303,
+      "original_min_overlap": 0.136,
+      "replacement_min_overlap": 0.244,
+      "original_sharpness": 1663.748291015625,
+      "replacement_sharpness": 1733.2550048828125
+    },
+    {
+      "slot": 31,
+      "original_frame": 1798,
+      "replacement_frame": 1775,
+      "original_min_overlap": 0.324,
+      "replacement_min_overlap": 0.344,
+      "original_sharpness": 1655.75732421875,
+      "replacement_sharpness": 1823.053955078125
+    },
+    {
+      "slot": 33,
+      "original_frame": 1974,
+      "replacement_frame": 1875,
+      "original_min_overlap": 0.3,
+      "replacement_min_overlap": 0.316,
+      "original_sharpness": 1636.83740234375,
+      "replacement_sharpness": 1822.127685546875
+    },
+    {
+      "slot": 39,
+      "original_frame": 2269,
+      "replacement_frame": 2301,
+      "original_min_overlap": 0.004,
+      "replacement_min_overlap": 0.02,
+      "original_sharpness": 1251.06494140625,
+      "replacement_sharpness": 1234.8505859375
+    },
+    {
+      "slot": 41,
+      "original_frame": 2387,
+      "replacement_frame": 2379,
+      "original_min_overlap": 0.108,
+      "replacement_min_overlap": 0.14,
+      "original_sharpness": 1347.22216796875,
+      "replacement_sharpness": 1303.4560546875
+    },
+    {
+      "slot": 43,
+      "original_frame": 2505,
+      "replacement_frame": 2490,
+      "original_min_overlap": 0.128,
+      "replacement_min_overlap": 0.26,
+      "original_sharpness": 2193.369873046875,
+      "replacement_sharpness": 2092.48193359375
+    },
+    {
+      "slot": 45,
+      "original_frame": 2623,
+      "replacement_frame": 2637,
+      "original_min_overlap": 0.212,
+      "replacement_min_overlap": 0.268,
+      "original_sharpness": 2473.17529296875,
+      "replacement_sharpness": 2438.901123046875
+    },
+    {
+      "slot": 51,
+      "original_frame": 3001,
+      "replacement_frame": 3020,
+      "original_min_overlap": 0.328,
+      "replacement_min_overlap": 0.452,
+      "original_sharpness": 1978.80078125,
+      "replacement_sharpness": 2347.749267578125
+    },
+    {
+      "slot": 53,
+      "original_frame": 3095,
+      "replacement_frame": 3080,
+      "original_min_overlap": 0.592,
+      "replacement_min_overlap": 0.624,
+      "original_sharpness": 2050.108154296875,
+      "replacement_sharpness": 2114.7744140625
+    },
+    {
+      "slot": 55,
+      "original_frame": 3212,
+      "replacement_frame": 3226,
+      "original_min_overlap": 0.708,
+      "replacement_min_overlap": 0.716,
+      "original_sharpness": 2095.50732421875,
+      "replacement_sharpness": 2097.36474609375
+    }
+  ],
+  "baseline": {
+    "num_total_images": 72,
+    "num_registered_images": 24,
+    "registration_rate": 0.3333333333333333,
+    "num_3d_points": 4702,
+    "num_observations": 17974,
+    "track_3plus_fraction": 0.678860059549128,
+    "mean_track_length": 3.8226286686516375,
+    "max_track_length": 12,
+    "mean_reproj_error_px": 0.9681530062352298,
+    "median_reproj_error_px": 0.7700408749716972,
+    "rmse_reproj_error_px": 1.2362589255619618,
+    "pre_ba_mean_error_px": 0.9793891414959482,
+    "pre_ba_median_error_px": 0.7857924128392926,
+    "elapsed_sec": 6.93,
+    "num_candidate_pairs": 716,
+    "num_verified_pairs": 272,
+    "largest_match_component": 72,
+    "p90_reproj_error_px": 1.9544292150020186,
+    "median_image_grid_coverage": 0.8046875,
+    "init_pair": [
+      "006_kf006_f0353.jpg",
+      "006_kf009_f0525.jpg"
+    ],
+    "seed_attempts": [
+      {
+        "seed": [
+          65,
+          67
+        ],
+        "probe_registered": 10,
+        "probe_tracks_3plus": 2432,
+        "median_angle_deg": 3.573015433390367,
+        "coverage": 0.7415279186511328,
+        "expanded_registered": 24
+      },
+      {
+        "seed": [
+          6,
+          9
+        ],
+        "probe_registered": 10,
+        "probe_tracks_3plus": 1397,
+        "median_angle_deg": 2.342101418063592,
+        "coverage": 0.6787770657209037,
+        "expanded_registered": 24
+      },
+      {
+        "seed": [
+          28,
+          29
+        ],
+        "probe_registered": 7,
+        "probe_tracks_3plus": 214,
+        "median_angle_deg": 7.288966614933326,
+        "coverage": 0.5891835521372695
+      },
+      {
+        "seed": [
+          50,
+          51
+        ],
+        "probe_registered": 10,
+        "probe_tracks_3plus": 1232,
+        "median_angle_deg": 12.890806774676836,
+        "coverage": 0.26624399220975553,
+        "expanded_registered": 11
+      }
+    ],
+    "num_seed_candidates": 175,
+    "num_feature_tracks": 19337,
+    "track_conflicts": 770,
+    "registration_retries": 1,
+    "bundle_adjustment": [
+      {
+        "mean_reproj_before": 1.4629204259754744,
+        "mean_reproj_after": 1.0773224375256738,
+        "median_reproj_before": 1.2377915193610076,
+        "median_reproj_after": 0.8955241023597262,
+        "rmse_before": 1.805514939732281,
+        "rmse_after": 1.3194569756754388,
+        "nfev": 12,
+        "status": 0,
+        "accepted": true,
+        "num_optimized_points": 1000,
+        "num_focal_groups": 1
+      },
+      {
+        "mean_reproj_before": 1.1461521168644127,
+        "mean_reproj_after": 1.0590971769095525,
+        "median_reproj_before": 0.9234126930165214,
+        "median_reproj_after": 0.8745629027720433,
+        "rmse_before": 1.4272261955203638,
+        "rmse_after": 1.3061715800680158,
+        "nfev": 16,
+        "status": 0,
+        "accepted": true,
+        "num_optimized_points": 1800,
+        "num_focal_groups": 1
+      },
+      {
+        "mean_reproj_before": 0.9809599508281883,
+        "mean_reproj_after": 0.9515759497938413,
+        "median_reproj_before": 0.8112444398388928,
+        "median_reproj_after": 0.7922337053493252,
+        "rmse_before": 1.2077349686697756,
+        "rmse_after": 1.16629167287824,
+        "nfev": 24,
+        "status": 0,
+        "accepted": true,
+        "num_optimized_points": 1800,
+        "num_focal_groups": 1
+      }
+    ],
+    "views": [
+      {
+        "name": "006_kf000_f0000.jpg",
+        "frame_index": 0,
+        "timestamp_sec": 0.0,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9584417245383455,
+            0.1905957965599006,
+            0.21227977529114533
+          ],
+          [
+            -0.14382759325430344,
+            0.965422083578532,
+            -0.21742544459552265
+          ],
+          [
+            -0.24637995876823426,
+            0.17785792889995944,
+            0.9527137413960083
+          ]
+        ],
+        "world_to_camera_t": [
+          -1.9074445175820538,
+          1.4986051217063736,
+          -2.7942438721882197
+        ]
+      },
+      {
+        "name": "006_kf001_f0030.jpg",
+        "frame_index": 30,
+        "timestamp_sec": 0.5002030578117534,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9635730600482423,
+            0.18472563743792586,
+            0.19339957813402409
+          ],
+          [
+            -0.14080767248200776,
+            0.9652004055439921,
+            -0.2203664595802023
+          ],
+          [
+            -0.2273766859628888,
+            0.1851070393336387,
+            0.9560518953852184
+          ]
+        ],
+        "world_to_camera_t": [
+          -1.899558411993046,
+          1.3439487444107874,
+          -2.719591552162537
+        ]
+      },
+      {
+        "name": "006_kf002_f0088.jpg",
+        "frame_index": 88,
+        "timestamp_sec": 1.467262302914477,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9687571854624476,
+            0.20372044155273755,
+            0.14144786074180993
+          ],
+          [
+            -0.1783965292448606,
+            0.968594150589624,
+            -0.17320522450824766
+          ],
+          [
+            -0.17229101534399405,
+            0.1425599983765521,
+            0.9746755628898331
+          ]
+        ],
+        "world_to_camera_t": [
+          -1.909163049228525,
+          0.7633297032507783,
+          -2.56391144861847
+        ]
+      },
+      {
+        "name": "006_kf003_f0147.jpg",
+        "frame_index": 147,
+        "timestamp_sec": 2.450994983277592,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9739234044504264,
+            0.19539185627470443,
+            0.11530492081960966
+          ],
+          [
+            -0.18026224767984098,
+            0.9750334999269236,
+            -0.12967342087592795
+          ],
+          [
+            -0.13776329091997938,
+            0.1055068553307278,
+            0.9848297208924587
+          ]
+        ],
+        "world_to_camera_t": [
+          -1.9515436587624484,
+          0.5867496527602732,
+          -2.520433312038251
+        ]
+      },
+      {
+        "name": "006_kf004_f0206.jpg",
+        "frame_index": 206,
+        "timestamp_sec": 3.4347276636407074,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9654181120188872,
+            0.2503730186836941,
+            0.0726720063098715
+          ],
+          [
+            -0.253352305658223,
+            0.966739807277332,
+            0.03502505164949037
+          ],
+          [
+            -0.061485593463427045,
+            -0.052225439592229854,
+            0.9967407011133079
+          ]
+        ],
+        "world_to_camera_t": [
+          -1.6632288232364276,
+          -0.5490002990340563,
+          -2.213821122190346
+        ]
+      },
+      {
+        "name": "006_kf005_f0265.jpg",
+        "frame_index": 265,
+        "timestamp_sec": 4.418460344003822,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9957533928752104,
+            0.09201041417252875,
+            -0.0030437249065464653
+          ],
+          [
+            -0.09152780660428597,
+            0.9930001352681285,
+            0.0746551537114954
+          ],
+          [
+            0.009891470857028102,
+            -0.07405953713923887,
+            0.9972047652127451
+          ]
+        ],
+        "world_to_camera_t": [
+          -0.7404915492938108,
+          -0.8389499055457099,
+          -1.5089904911971987
+        ]
+      },
+      {
+        "name": "006_kf006_f0353.jpg",
+        "frame_index": 353,
+        "timestamp_sec": 5.885722646918299,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_t": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "006_kf007_f0441.jpg",
+        "frame_index": 441,
+        "timestamp_sec": 7.352984949832776,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9983987059267633,
+            0.020053405388808933,
+            -0.052895036970177854
+          ],
+          [
+            -0.024447143510437558,
+            0.9961850645016904,
+            -0.08377144166088421
+          ],
+          [
+            0.051013343136325266,
+            0.08493043150764598,
+            0.9950801277414701
+          ]
+        ],
+        "world_to_camera_t": [
+          0.26939187182831614,
+          0.57931938015711,
+          0.05889784183342785
+        ]
+      },
+      {
+        "name": "006_kf008_f0471.jpg",
+        "frame_index": 471,
+        "timestamp_sec": 7.85318800764453,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9999838385670365,
+            0.001353077632548607,
+            0.005521936766681584
+          ],
+          [
+            -0.0008319000745516062,
+            0.995636171681712,
+            -0.0933162450018768
+          ],
+          [
+            -0.0056241041065128086,
+            0.09331014317803094,
+            0.9956212063998509
+          ]
+        ],
+        "world_to_camera_t": [
+          -0.0072754201839969924,
+          0.696363344434127,
+          0.04730605805748774
+        ]
+      },
+      {
+        "name": "006_kf009_f0525.jpg",
+        "frame_index": 525,
+        "timestamp_sec": 8.753553511705686,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9998305458349454,
+            -0.01803468856589565,
+            -0.0036918320284698523
+          ],
+          [
+            0.01733189574876736,
+            0.9898061542242947,
+            -0.14136259211497765
+          ],
+          [
+            0.006203628385803187,
+            0.14127465118712146,
+            0.9899510027909503
+          ]
+        ],
+        "world_to_camera_t": [
+          0.12821906482073087,
+          0.9917873751298959,
+          0.04927445446328963
+        ]
+      },
+      {
+        "name": "006_kf010_f0560.jpg",
+        "frame_index": 560,
+        "timestamp_sec": 9.337123745819397,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.995475085807214,
+            -0.03329734509659879,
+            -0.08899797945255748
+          ],
+          [
+            0.015123370133517399,
+            0.9801745171854791,
+            -0.1975580915478216
+          ],
+          [
+            0.09381171149128699,
+            0.19531820875108097,
+            0.9762428796756187
+          ]
+        ],
+        "world_to_camera_t": [
+          0.6306173460802977,
+          1.1576397277631325,
+          0.15222491423010387
+        ]
+      },
+      {
+        "name": "006_kf011_f0619.jpg",
+        "frame_index": 619,
+        "timestamp_sec": 10.320856426182514,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.970622901869219,
+            -0.093477846970249,
+            -0.22170492663173536
+          ],
+          [
+            0.030257847649266603,
+            0.9615516759491377,
+            -0.27295207845890884
+          ],
+          [
+            0.23869571638931902,
+            0.25822522457190594,
+            0.9361325164591702
+          ]
+        ],
+        "world_to_camera_t": [
+          1.8876474156751912,
+          1.0253135852544895,
+          0.06881971748113178
+        ]
+      },
+      {
+        "name": "006_kf012_f0678.jpg",
+        "frame_index": 678,
+        "timestamp_sec": 11.30458910654563,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9053585648908309,
+            -0.15604317425635056,
+            -0.39493847210270283
+          ],
+          [
+            0.0029028704826978974,
+            0.9322899271817562,
+            -0.3617002419385371
+          ],
+          [
+            0.4246380132792822,
+            0.32632195672899156,
+            0.8445096436600272
+          ]
+        ],
+        "world_to_camera_t": [
+          3.7009762121780825,
+          2.2389339119869147,
+          0.23046191519554796
+        ]
+      },
+      {
+        "name": "006_kf013_f0795.jpg",
+        "frame_index": 795,
+        "timestamp_sec": 13.255381032011467,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf014_f0796.jpg",
+        "frame_index": 796,
+        "timestamp_sec": 13.27205446727186,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf015_f0855.jpg",
+        "frame_index": 855,
+        "timestamp_sec": 14.255787147634974,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf016_f0914.jpg",
+        "frame_index": 914,
+        "timestamp_sec": 15.23951982799809,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf017_f0973.jpg",
+        "frame_index": 973,
+        "timestamp_sec": 16.223252508361206,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf018_f1032.jpg",
+        "frame_index": 1032,
+        "timestamp_sec": 17.20698518872432,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf019_f1090.jpg",
+        "frame_index": 1090,
+        "timestamp_sec": 18.174044433827042,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf020_f1149.jpg",
+        "frame_index": 1149,
+        "timestamp_sec": 19.157777114190157,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf021_f1208.jpg",
+        "frame_index": 1208,
+        "timestamp_sec": 20.141509794553272,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf022_f1267.jpg",
+        "frame_index": 1267,
+        "timestamp_sec": 21.125242474916387,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf023_f1384.jpg",
+        "frame_index": 1384,
+        "timestamp_sec": 23.076034400382227,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf024_f1409.jpg",
+        "frame_index": 1409,
+        "timestamp_sec": 23.49287028189202,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf025_f1444.jpg",
+        "frame_index": 1444,
+        "timestamp_sec": 24.076440516005732,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf026_f1503.jpg",
+        "frame_index": 1503,
+        "timestamp_sec": 25.06017319636885,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf027_f1620.jpg",
+        "frame_index": 1620,
+        "timestamp_sec": 27.010965121834687,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf028_f1645.jpg",
+        "frame_index": 1645,
+        "timestamp_sec": 27.42780100334448,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf029_f1680.jpg",
+        "frame_index": 1680,
+        "timestamp_sec": 28.011371237458196,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf030_f1763.jpg",
+        "frame_index": 1763,
+        "timestamp_sec": 29.395266364070714,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf031_f1798.jpg",
+        "frame_index": 1798,
+        "timestamp_sec": 29.978836598184426,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf032_f1857.jpg",
+        "frame_index": 1857,
+        "timestamp_sec": 30.96256927854754,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf033_f1974.jpg",
+        "frame_index": 1974,
+        "timestamp_sec": 32.91336120401338,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf034_f1999.jpg",
+        "frame_index": 1999,
+        "timestamp_sec": 33.330197085523174,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf035_f2034.jpg",
+        "frame_index": 2034,
+        "timestamp_sec": 33.91376731963688,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf036_f2093.jpg",
+        "frame_index": 2093,
+        "timestamp_sec": 34.8975,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf037_f2151.jpg",
+        "frame_index": 2151,
+        "timestamp_sec": 35.864559245102726,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf038_f2210.jpg",
+        "frame_index": 2210,
+        "timestamp_sec": 36.84829192546584,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf039_f2269.jpg",
+        "frame_index": 2269,
+        "timestamp_sec": 37.832024605828956,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf040_f2357.jpg",
+        "frame_index": 2357,
+        "timestamp_sec": 39.29928690874343,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf041_f2387.jpg",
+        "frame_index": 2387,
+        "timestamp_sec": 39.799489966555186,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf042_f2446.jpg",
+        "frame_index": 2446,
+        "timestamp_sec": 40.7832226469183,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf043_f2505.jpg",
+        "frame_index": 2505,
+        "timestamp_sec": 41.766955327281416,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf044_f2564.jpg",
+        "frame_index": 2564,
+        "timestamp_sec": 42.75068800764453,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf045_f2623.jpg",
+        "frame_index": 2623,
+        "timestamp_sec": 43.734420688007646,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf046_f2682.jpg",
+        "frame_index": 2682,
+        "timestamp_sec": 44.718153368370764,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf047_f2741.jpg",
+        "frame_index": 2741,
+        "timestamp_sec": 45.701886048733876,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf048_f2824.jpg",
+        "frame_index": 2824,
+        "timestamp_sec": 47.08578117534639,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf049_f2859.jpg",
+        "frame_index": 2859,
+        "timestamp_sec": 47.669351409460106,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf050_f2918.jpg",
+        "frame_index": 2918,
+        "timestamp_sec": 48.653084089823224,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf051_f3001.jpg",
+        "frame_index": 3001,
+        "timestamp_sec": 50.03697921643574,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf052_f3036.jpg",
+        "frame_index": 3036,
+        "timestamp_sec": 50.620549450549454,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf053_f3095.jpg",
+        "frame_index": 3095,
+        "timestamp_sec": 51.604282130912566,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf054_f3154.jpg",
+        "frame_index": 3154,
+        "timestamp_sec": 52.588014811275684,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf055_f3212.jpg",
+        "frame_index": 3212,
+        "timestamp_sec": 53.55507405637841,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf056_f3271.jpg",
+        "frame_index": 3271,
+        "timestamp_sec": 54.53880673674152,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf057_f3330.jpg",
+        "frame_index": 3330,
+        "timestamp_sec": 55.52253941710464,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf058_f3389.jpg",
+        "frame_index": 3389,
+        "timestamp_sec": 56.50627209746775,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf059_f3448.jpg",
+        "frame_index": 3448,
+        "timestamp_sec": 57.49000477783087,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf060_f3507.jpg",
+        "frame_index": 3507,
+        "timestamp_sec": 58.47373745819398,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf061_f3595.jpg",
+        "frame_index": 3595,
+        "timestamp_sec": 59.94099976110846,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9664997134660133,
+            0.18919976162089003,
+            0.17344092386951984
+          ],
+          [
+            -0.14053232736367027,
+            0.9555345975012025,
+            -0.25923791764316634
+          ],
+          [
+            -0.21477655560108136,
+            0.22617931643015743,
+            0.9501125975290099
+          ]
+        ],
+        "world_to_camera_t": [
+          -1.3222066367892356,
+          0.3220975617539558,
+          -2.224571248064554
+        ]
+      },
+      {
+        "name": "006_kf062_f3625.jpg",
+        "frame_index": 3625,
+        "timestamp_sec": 60.44120281892021,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9678688607236903,
+            0.13130928401530134,
+            0.21444752358750813
+          ],
+          [
+            -0.10969205315725636,
+            0.987880316942804,
+            -0.1098186362651205
+          ],
+          [
+            -0.22626869406873673,
+            0.08276684921134864,
+            0.9705421818530374
+          ]
+        ],
+        "world_to_camera_t": [
+          -2.4238115277007473,
+          -0.008865974241755031,
+          -1.030641136419238
+        ]
+      },
+      {
+        "name": "006_kf063_f3718.jpg",
+        "frame_index": 3718,
+        "timestamp_sec": 61.99183229813665,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.7895198346604211,
+            0.19477057057053515,
+            0.5819990167667034
+          ],
+          [
+            -0.14336040431413644,
+            0.9805995221561531,
+            -0.13368758963348693
+          ],
+          [
+            -0.5967463658478941,
+            0.02211338930947631,
+            0.8021251603463009
+          ]
+        ],
+        "world_to_camera_t": [
+          -3.45739067688232,
+          0.0719122158046484,
+          0.9271771612476716
+        ]
+      },
+      {
+        "name": "006_kf064_f3743.jpg",
+        "frame_index": 3743,
+        "timestamp_sec": 62.40866817964644,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.8161623773287615,
+            0.19889821017119014,
+            0.5425112679233136
+          ],
+          [
+            -0.13755882168409084,
+            0.9787769973682208,
+            -0.15189851875424748
+          ],
+          [
+            -0.5612098933642821,
+            0.04934664541331098,
+            0.8262011644729775
+          ]
+        ],
+        "world_to_camera_t": [
+          -3.3861929416209864,
+          0.005007482095028737,
+          0.7586653439053981
+        ]
+      },
+      {
+        "name": "006_kf065_f3802.jpg",
+        "frame_index": 3802,
+        "timestamp_sec": 63.39240086000956,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.8524301146247456,
+            0.201487070763369,
+            0.4824581432580865
+          ],
+          [
+            -0.14064557939491837,
+            0.9771163096440495,
+            -0.15956985437187604
+          ],
+          [
+            -0.5035689830375883,
+            0.06816654416054221,
+            0.8612616336396846
+          ]
+        ],
+        "world_to_camera_t": [
+          -3.0821961340673707,
+          -0.03544446861119078,
+          0.5122047271569163
+        ]
+      },
+      {
+        "name": "006_kf066_f3861.jpg",
+        "frame_index": 3861,
+        "timestamp_sec": 64.37613354037268,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.8913012418202153,
+            0.15342897339887718,
+            0.42666338775609586
+          ],
+          [
+            -0.10973871596644048,
+            0.9860269487350597,
+            -0.12533263974825123
+          ],
+          [
+            -0.4399312566160523,
+            0.06488764512597654,
+            0.8956841424085984
+          ]
+        ],
+        "world_to_camera_t": [
+          -2.8313771866375066,
+          -0.08338817120045829,
+          0.318474100653421
+        ]
+      },
+      {
+        "name": "006_kf067_f3920.jpg",
+        "frame_index": 3920,
+        "timestamp_sec": 65.35986622073578,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9140780369350163,
+            0.12888915636947967,
+            0.3845112843121652
+          ],
+          [
+            -0.08958075120127015,
+            0.9889017506653062,
+            -0.1185268600162375
+          ],
+          [
+            -0.39552070920148175,
+            0.07389798983366491,
+            0.91547935841902
+          ]
+        ],
+        "world_to_camera_t": [
+          -2.760665146078193,
+          -0.20821717469648876,
+          0.1530539738973279
+        ]
+      },
+      {
+        "name": "006_kf068_f4008.jpg",
+        "frame_index": 4008,
+        "timestamp_sec": 66.82712852365026,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9166006026068951,
+            0.1702712498999382,
+            0.36173337799847743
+          ],
+          [
+            -0.12218920748378397,
+            0.9807907153078436,
+            -0.15205055192406694
+          ],
+          [
+            -0.3806745760819356,
+            0.09516971274224473,
+            0.9197986697649639
+          ]
+        ],
+        "world_to_camera_t": [
+          -2.6625299593454925,
+          -0.03415465127909764,
+          0.05019595843078349
+        ]
+      },
+      {
+        "name": "006_kf069_f4067.jpg",
+        "frame_index": 4067,
+        "timestamp_sec": 67.81086120401338,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9194569258363852,
+            0.20184937369409287,
+            0.33742523893568854
+          ],
+          [
+            -0.1482348669621694,
+            0.9728003158616632,
+            -0.17800553271220598
+          ],
+          [
+            -0.36417768430837716,
+            0.11365023448612305,
+            0.9243691029307705
+          ]
+        ],
+        "world_to_camera_t": [
+          -2.6475803494409966,
+          0.06778914715035507,
+          -0.059046522825384105
+        ]
+      },
+      {
+        "name": "006_kf070_f4131.jpg",
+        "frame_index": 4131,
+        "timestamp_sec": 68.87796106067846,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9113489220145444,
+            0.18528151986007585,
+            0.3675784280140338
+          ],
+          [
+            -0.12673347675611846,
+            0.975891255425847,
+            -0.1776932284941402
+          ],
+          [
+            -0.3916398450263128,
+            0.11535604007465168,
+            0.9128588148262913
+          ]
+        ],
+        "world_to_camera_t": [
+          -2.6657243160734283,
+          0.020266165144010338,
+          0.02256949722332032
+        ]
+      },
+      {
+        "name": "006_kf071_f4185.jpg",
+        "frame_index": 4185,
+        "timestamp_sec": 69.77832656473961,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.793286640397,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.793286640397,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9168660869726205,
+            0.17620316484468854,
+            0.3582024891848612
+          ],
+          [
+            -0.11908225666230307,
+            0.9771827265845219,
+            -0.1758787508855263
+          ],
+          [
+            -0.38101967758598565,
+            0.11860170135185732,
+            0.916928373281532
+          ]
+        ],
+        "world_to_camera_t": [
+          -2.497895466584409,
+          -0.05356395919854904,
+          -0.03670687049585212
+        ]
+      }
+    ],
+    "largest_internal_gap_sec": 48.63641065456283,
+    "largest_gap_including_clip_ends_sec": 48.63641065456283,
+    "registrations_inside_original_gap": 0
+  },
+  "replacement": {
+    "num_total_images": 72,
+    "num_registered_images": 25,
+    "registration_rate": 0.3472222222222222,
+    "num_3d_points": 4279,
+    "num_observations": 15832,
+    "track_3plus_fraction": 0.6179013788268287,
+    "mean_track_length": 3.6999298901612527,
+    "max_track_length": 14,
+    "mean_reproj_error_px": 1.0647062632418076,
+    "median_reproj_error_px": 0.8162332102336308,
+    "rmse_reproj_error_px": 1.3758381388256338,
+    "pre_ba_mean_error_px": 1.0743867465948556,
+    "pre_ba_median_error_px": 0.8213743362695032,
+    "elapsed_sec": 6.85,
+    "num_candidate_pairs": 713,
+    "num_verified_pairs": 279,
+    "largest_match_component": 69,
+    "p90_reproj_error_px": 2.32281815701604,
+    "median_image_grid_coverage": 0.734375,
+    "init_pair": [
+      "006_kf006_f0353.jpg",
+      "006_kf009_f0525.jpg"
+    ],
+    "seed_attempts": [
+      {
+        "seed": [
+          65,
+          67
+        ],
+        "probe_registered": 10,
+        "probe_tracks_3plus": 2432,
+        "median_angle_deg": 3.573015433390367,
+        "coverage": 0.7415279186511328,
+        "expanded_registered": 22
+      },
+      {
+        "seed": [
+          6,
+          9
+        ],
+        "probe_registered": 10,
+        "probe_tracks_3plus": 1329,
+        "median_angle_deg": 2.342101418063592,
+        "coverage": 0.6787770657209037,
+        "expanded_registered": 25
+      },
+      {
+        "seed": [
+          32,
+          33
+        ],
+        "probe_registered": 8,
+        "probe_tracks_3plus": 158,
+        "median_angle_deg": 6.2411844082835275,
+        "coverage": 0.7701487388419822
+      },
+      {
+        "seed": [
+          52,
+          54
+        ],
+        "probe_registered": 10,
+        "probe_tracks_3plus": 1557,
+        "median_angle_deg": 5.860118991164898,
+        "coverage": 0.10942955477398152,
+        "expanded_registered": 11
+      }
+    ],
+    "num_seed_candidates": 186,
+    "num_feature_tracks": 19317,
+    "track_conflicts": 804,
+    "registration_retries": 1,
+    "bundle_adjustment": [
+      {
+        "mean_reproj_before": 1.4525352608532336,
+        "mean_reproj_after": 1.028240548800882,
+        "median_reproj_before": 1.1763660289076663,
+        "median_reproj_after": 0.823617207329097,
+        "rmse_before": 1.8375440260184492,
+        "rmse_after": 1.3119660776681412,
+        "nfev": 12,
+        "status": 0,
+        "accepted": true,
+        "num_optimized_points": 1000,
+        "num_focal_groups": 1
+      },
+      {
+        "mean_reproj_before": 1.2378799057118548,
+        "mean_reproj_after": 1.134444745549742,
+        "median_reproj_before": 0.950769089136541,
+        "median_reproj_after": 0.8929889438981025,
+        "rmse_before": 1.5684944095413313,
+        "rmse_after": 1.446276003846041,
+        "nfev": 16,
+        "status": 0,
+        "accepted": true,
+        "num_optimized_points": 1800,
+        "num_focal_groups": 1
+      },
+      {
+        "mean_reproj_before": 1.0627201548810623,
+        "mean_reproj_after": 1.044846581371214,
+        "median_reproj_before": 0.8428755979002523,
+        "median_reproj_after": 0.8341283278120053,
+        "rmse_before": 1.3307319491416472,
+        "rmse_after": 1.3099821354935768,
+        "nfev": 24,
+        "status": 0,
+        "accepted": true,
+        "num_optimized_points": 1800,
+        "num_focal_groups": 1
+      }
+    ],
+    "views": [
+      {
+        "name": "006_kf000_f0000.jpg",
+        "frame_index": 0,
+        "timestamp_sec": 0.0,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.961701821163749,
+            0.20113191870877123,
+            0.18621374397948354
+          ],
+          [
+            -0.1495377955337993,
+            0.9543594542242909,
+            -0.2585275224025581
+          ],
+          [
+            -0.2297129836931731,
+            0.22078039634270474,
+            0.9478860489075351
+          ]
+        ],
+        "world_to_camera_t": [
+          -1.2965798773418846,
+          2.4171746673172922,
+          -2.571572505581454
+        ]
+      },
+      {
+        "name": "006_kf001_f0030.jpg",
+        "frame_index": 30,
+        "timestamp_sec": 0.5002030578117534,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9664981151171989,
+            0.19838357067851078,
+            0.16286605649964683
+          ],
+          [
+            -0.15009304076340466,
+            0.9515523089811881,
+            -0.2683659486353745
+          ],
+          [
+            -0.20821496725571095,
+            0.234930121860552,
+            0.9494495064263763
+          ]
+        ],
+        "world_to_camera_t": [
+          -1.1927732767780588,
+          2.4386090307015604,
+          -2.495617415033808
+        ]
+      },
+      {
+        "name": "006_kf002_f0088.jpg",
+        "frame_index": 88,
+        "timestamp_sec": 1.467262302914477,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9712036438539168,
+            0.21550958041306303,
+            0.1015829853620174
+          ],
+          [
+            -0.18758442373052567,
+            0.9545442291882493,
+            -0.23164066676017306
+          ],
+          [
+            -0.1468862353611152,
+            0.20591487385227045,
+            0.9674830740575479
+          ]
+        ],
+        "world_to_camera_t": [
+          -1.0189545284712358,
+          2.1355644758198538,
+          -2.587123895688644
+        ]
+      },
+      {
+        "name": "006_kf003_f0147.jpg",
+        "frame_index": 147,
+        "timestamp_sec": 2.450994983277592,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9753707569894354,
+            0.2063268203979654,
+            0.07798159779282243
+          ],
+          [
+            -0.1861275762969356,
+            0.9596123297390303,
+            -0.21095189488283583
+          ],
+          [
+            -0.11835713646284371,
+            0.19124178360728689,
+            0.9743809154796801
+          ]
+        ],
+        "world_to_camera_t": [
+          -1.106308041445312,
+          2.4997955865244594,
+          -2.3910819581079754
+        ]
+      },
+      {
+        "name": "006_kf004_f0206.jpg",
+        "frame_index": 206,
+        "timestamp_sec": 3.4347276636407074,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9654564387972098,
+            0.2544053927472561,
+            0.056318388880755375
+          ],
+          [
+            -0.2556317421106213,
+            0.9666476827769389,
+            0.01564192467259919
+          ],
+          [
+            -0.050460650119657106,
+            -0.029498364752792768,
+            0.9982903231357162
+          ]
+        ],
+        "world_to_camera_t": [
+          -1.2659246394115928,
+          -0.07256529478612822,
+          -2.280510877147398
+        ]
+      },
+      {
+        "name": "006_kf005_f0265.jpg",
+        "frame_index": 265,
+        "timestamp_sec": 4.418460344003822,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9956097318510326,
+            0.09272483932682332,
+            -0.012781471563550622
+          ],
+          [
+            -0.09152204669246713,
+            0.9929953963543828,
+            0.07472521521028896
+          ],
+          [
+            0.01962082599527652,
+            -0.07322736504078878,
+            0.9971222473681179
+          ]
+        ],
+        "world_to_camera_t": [
+          -0.5154771838328119,
+          -0.8304399709974867,
+          -1.5960124252540444
+        ]
+      },
+      {
+        "name": "006_kf006_f0353.jpg",
+        "frame_index": 353,
+        "timestamp_sec": 5.885722646918299,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_t": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "006_kf007_f0441.jpg",
+        "frame_index": 441,
+        "timestamp_sec": 7.352984949832776,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9983899897666569,
+            0.01995707964948186,
+            -0.053095605332257656
+          ],
+          [
+            -0.02437470480544724,
+            0.9961760601010061,
+            -0.0838995294818981
+          ],
+          [
+            0.05121818133614213,
+            0.08505864008729988,
+            0.9950586543752671
+          ]
+        ],
+        "world_to_camera_t": [
+          0.27610663864819557,
+          0.5857786675099868,
+          0.06362018757813143
+        ]
+      },
+      {
+        "name": "006_kf008_f0471.jpg",
+        "frame_index": 471,
+        "timestamp_sec": 7.85318800764453,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9999838357091251,
+            0.0012681999571685096,
+            0.005542561622046783
+          ],
+          [
+            -0.0007456891625819361,
+            0.9956399195808265,
+            -0.09327697724925565
+          ],
+          [
+            -0.005636689466198747,
+            0.09327133646492897,
+            0.9956247714505237
+          ]
+        ],
+        "world_to_camera_t": [
+          -0.006987705024121573,
+          0.6989450152733034,
+          0.05073978047483082
+        ]
+      },
+      {
+        "name": "006_kf009_f0525.jpg",
+        "frame_index": 525,
+        "timestamp_sec": 8.753553511705686,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9998316259695599,
+            -0.017997168578092738,
+            -0.003580730964185617
+          ],
+          [
+            0.017311714912962798,
+            0.9898359103572156,
+            -0.141156562348601
+          ],
+          [
+            0.006084754542170761,
+            0.14107080665564328,
+            0.9899808095471789
+          ]
+        ],
+        "world_to_camera_t": [
+          0.12646371641917928,
+          0.9917873751298959,
+          0.05472531816746733
+        ]
+      },
+      {
+        "name": "006_kf010_f0560.jpg",
+        "frame_index": 560,
+        "timestamp_sec": 9.337123745819397,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9954568679768775,
+            -0.03325696067045791,
+            -0.08921658234111546
+          ],
+          [
+            0.015094682041821253,
+            0.9802881097006665,
+            -0.1969958693819503
+          ],
+          [
+            0.09400943873740411,
+            0.1947541951960412,
+            0.9763365346445971
+          ]
+        ],
+        "world_to_camera_t": [
+          0.6380667905311895,
+          1.1491631687746553,
+          0.15715846161934413
+        ]
+      },
+      {
+        "name": "006_kf011_f0619.jpg",
+        "frame_index": 619,
+        "timestamp_sec": 10.320856426182514,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9702958355396217,
+            -0.09606853867510723,
+            -0.22202888868635273
+          ],
+          [
+            0.030671661757783075,
+            0.959217610609508,
+            -0.28099968800979536
+          ],
+          [
+            0.23996924948726978,
+            0.26584283208959314,
+            0.9336714346744796
+          ]
+        ],
+        "world_to_camera_t": [
+          1.9012919482993136,
+          1.206759797080816,
+          0.1489082440019124
+        ]
+      },
+      {
+        "name": "006_kf012_f0678.jpg",
+        "frame_index": 678,
+        "timestamp_sec": 11.30458910654563,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.902644942511387,
+            -0.15969606988549317,
+            -0.39966144800536163
+          ],
+          [
+            0.00025962988299395307,
+            0.928813516834489,
+            -0.37054741064791197
+          ],
+          [
+            0.4303859202517417,
+            0.334368982127045,
+            0.8384302853788055
+          ]
+        ],
+        "world_to_camera_t": [
+          3.855101147364153,
+          2.4731473346252897,
+          0.31429804073701234
+        ]
+      },
+      {
+        "name": "006_kf013_f0693.jpg",
+        "frame_index": 693,
+        "timestamp_sec": 11.554690635451506,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.8652945585589678,
+            -0.16350007445515924,
+            -0.47384918759178923
+          ],
+          [
+            -0.01355753335761424,
+            0.9373297113249638,
+            -0.34817984656886347
+          ],
+          [
+            0.5010803530547755,
+            0.3077023528031879,
+            0.808849641071741
+          ]
+        ],
+        "world_to_camera_t": [
+          4.19814057887633,
+          2.2405961934781913,
+          0.393198013674882
+        ]
+      },
+      {
+        "name": "006_kf014_f0796.jpg",
+        "frame_index": 796,
+        "timestamp_sec": 13.27205446727186,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf015_f0855.jpg",
+        "frame_index": 855,
+        "timestamp_sec": 14.255787147634974,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf016_f0914.jpg",
+        "frame_index": 914,
+        "timestamp_sec": 15.23951982799809,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf017_f0973.jpg",
+        "frame_index": 973,
+        "timestamp_sec": 16.223252508361206,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf018_f1032.jpg",
+        "frame_index": 1032,
+        "timestamp_sec": 17.20698518872432,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf019_f1090.jpg",
+        "frame_index": 1090,
+        "timestamp_sec": 18.174044433827042,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf020_f1149.jpg",
+        "frame_index": 1149,
+        "timestamp_sec": 19.157777114190157,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf021_f1222.jpg",
+        "frame_index": 1222,
+        "timestamp_sec": 20.374937888198758,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf022_f1267.jpg",
+        "frame_index": 1267,
+        "timestamp_sec": 21.125242474916387,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf023_f1303.jpg",
+        "frame_index": 1303,
+        "timestamp_sec": 21.725486144290493,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf024_f1409.jpg",
+        "frame_index": 1409,
+        "timestamp_sec": 23.49287028189202,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf025_f1444.jpg",
+        "frame_index": 1444,
+        "timestamp_sec": 24.076440516005732,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf026_f1503.jpg",
+        "frame_index": 1503,
+        "timestamp_sec": 25.06017319636885,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf027_f1620.jpg",
+        "frame_index": 1620,
+        "timestamp_sec": 27.010965121834687,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf028_f1645.jpg",
+        "frame_index": 1645,
+        "timestamp_sec": 27.42780100334448,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf029_f1680.jpg",
+        "frame_index": 1680,
+        "timestamp_sec": 28.011371237458196,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf030_f1763.jpg",
+        "frame_index": 1763,
+        "timestamp_sec": 29.395266364070714,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf031_f1775.jpg",
+        "frame_index": 1775,
+        "timestamp_sec": 29.595347587195413,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf032_f1857.jpg",
+        "frame_index": 1857,
+        "timestamp_sec": 30.96256927854754,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf033_f1875.jpg",
+        "frame_index": 1875,
+        "timestamp_sec": 31.26269111323459,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf034_f1999.jpg",
+        "frame_index": 1999,
+        "timestamp_sec": 33.330197085523174,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf035_f2034.jpg",
+        "frame_index": 2034,
+        "timestamp_sec": 33.91376731963688,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf036_f2093.jpg",
+        "frame_index": 2093,
+        "timestamp_sec": 34.8975,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf037_f2151.jpg",
+        "frame_index": 2151,
+        "timestamp_sec": 35.864559245102726,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf038_f2210.jpg",
+        "frame_index": 2210,
+        "timestamp_sec": 36.84829192546584,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf039_f2301.jpg",
+        "frame_index": 2301,
+        "timestamp_sec": 38.36557453416149,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf040_f2357.jpg",
+        "frame_index": 2357,
+        "timestamp_sec": 39.29928690874343,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf041_f2379.jpg",
+        "frame_index": 2379,
+        "timestamp_sec": 39.66610248447205,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf042_f2446.jpg",
+        "frame_index": 2446,
+        "timestamp_sec": 40.7832226469183,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf043_f2490.jpg",
+        "frame_index": 2490,
+        "timestamp_sec": 41.516853798375536,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf044_f2564.jpg",
+        "frame_index": 2564,
+        "timestamp_sec": 42.75068800764453,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf045_f2637.jpg",
+        "frame_index": 2637,
+        "timestamp_sec": 43.96784878165313,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf046_f2682.jpg",
+        "frame_index": 2682,
+        "timestamp_sec": 44.718153368370764,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf047_f2741.jpg",
+        "frame_index": 2741,
+        "timestamp_sec": 45.701886048733876,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf048_f2824.jpg",
+        "frame_index": 2824,
+        "timestamp_sec": 47.08578117534639,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf049_f2859.jpg",
+        "frame_index": 2859,
+        "timestamp_sec": 47.669351409460106,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf050_f2918.jpg",
+        "frame_index": 2918,
+        "timestamp_sec": 48.653084089823224,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf051_f3020.jpg",
+        "frame_index": 3020,
+        "timestamp_sec": 50.35377448638318,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf052_f3036.jpg",
+        "frame_index": 3036,
+        "timestamp_sec": 50.620549450549454,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf053_f3080.jpg",
+        "frame_index": 3080,
+        "timestamp_sec": 51.35418060200669,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf054_f3154.jpg",
+        "frame_index": 3154,
+        "timestamp_sec": 52.588014811275684,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf055_f3226.jpg",
+        "frame_index": 3226,
+        "timestamp_sec": 53.78850215002389,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf056_f3271.jpg",
+        "frame_index": 3271,
+        "timestamp_sec": 54.53880673674152,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf057_f3330.jpg",
+        "frame_index": 3330,
+        "timestamp_sec": 55.52253941710464,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf058_f3389.jpg",
+        "frame_index": 3389,
+        "timestamp_sec": 56.50627209746775,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf059_f3448.jpg",
+        "frame_index": 3448,
+        "timestamp_sec": 57.49000477783087,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf060_f3507.jpg",
+        "frame_index": 3507,
+        "timestamp_sec": 58.47373745819398,
+        "registered": false,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": null,
+        "world_to_camera_R": null,
+        "world_to_camera_t": null
+      },
+      {
+        "name": "006_kf061_f3595.jpg",
+        "frame_index": 3595,
+        "timestamp_sec": 59.94099976110846,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9749120782339433,
+            0.19074986945009773,
+            0.11472108358250573
+          ],
+          [
+            -0.14840416278659144,
+            0.941138346526723,
+            -0.30370185571470676
+          ],
+          [
+            -0.1658995002439262,
+            0.27905752095529757,
+            0.9458352159954181
+          ]
+        ],
+        "world_to_camera_t": [
+          -0.24360879219616702,
+          1.2432541008537117,
+          -0.7827950604297325
+        ]
+      },
+      {
+        "name": "006_kf062_f3625.jpg",
+        "frame_index": 3625,
+        "timestamp_sec": 60.44120281892021,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9687752097123543,
+            0.13806413484569294,
+            0.20594389458319537
+          ],
+          [
+            -0.10653774616198686,
+            0.9818270079087111,
+            -0.15705233262754073
+          ],
+          [
+            -0.22388457224540512,
+            0.1302076081123448,
+            0.9658787072402798
+          ]
+        ],
+        "world_to_camera_t": [
+          -2.2369205762269737,
+          1.104885207479935,
+          -0.5091619468203346
+        ]
+      },
+      {
+        "name": "006_kf063_f3718.jpg",
+        "frame_index": 3718,
+        "timestamp_sec": 61.99183229813665,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.7958044511666553,
+            0.2202326640983312,
+            0.5640858526567476
+          ],
+          [
+            -0.15065756208970238,
+            0.9742374982094054,
+            -0.1678201301032332
+          ],
+          [
+            -0.5865130642095928,
+            0.04856820716096352,
+            0.8084822538340862
+          ]
+        ],
+        "world_to_camera_t": [
+          -2.8983311676072847,
+          0.8056958442795668,
+          0.7063927841443083
+        ]
+      },
+      {
+        "name": "006_kf064_f3743.jpg",
+        "frame_index": 3743,
+        "timestamp_sec": 62.40866817964644,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.8272410820541606,
+            0.2203509217621699,
+            0.516834270768129
+          ],
+          [
+            -0.142095562065132,
+            0.9720314364433588,
+            -0.18698592943656178
+          ],
+          [
+            -0.5435816805258027,
+            0.08124258639668436,
+            0.8354152253534295
+          ]
+        ],
+        "world_to_camera_t": [
+          -2.59666006200679,
+          0.7846060805144006,
+          0.567425070539683
+        ]
+      },
+      {
+        "name": "006_kf065_f3802.jpg",
+        "frame_index": 3802,
+        "timestamp_sec": 63.39240086000956,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.8543636708823504,
+            0.2223695137152116,
+            0.46969619675540825
+          ],
+          [
+            -0.14094011233358808,
+            0.9691000382505642,
+            -0.2024376461979111
+          ],
+          [
+            -0.5001985631844922,
+            0.10675633579706345,
+            0.8593046503745655
+          ]
+        ],
+        "world_to_camera_t": [
+          -2.682330230025247,
+          0.9564556340251956,
+          0.5692460014963944
+        ]
+      },
+      {
+        "name": "006_kf066_f3861.jpg",
+        "frame_index": 3861,
+        "timestamp_sec": 64.37613354037268,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.8935034811847453,
+            0.1723571376510574,
+            0.41466196619834306
+          ],
+          [
+            -0.11111940141632821,
+            0.9795521320270981,
+            -0.1677203007093753
+          ],
+          [
+            -0.435090804016378,
+            0.10378168307510152,
+            0.8943854619337687
+          ]
+        ],
+        "world_to_camera_t": [
+          -2.4627906993587927,
+          0.8885773479440816,
+          0.4786935548415309
+        ]
+      },
+      {
+        "name": "006_kf067_f3920.jpg",
+        "frame_index": 3920,
+        "timestamp_sec": 65.35986622073578,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9134734169589651,
+            0.14622190353529416,
+            0.3797176206549121
+          ],
+          [
+            -0.08827508770983536,
+            0.9821900435067009,
+            -0.16586207319977003
+          ],
+          [
+            -0.3972075344188898,
+            0.11799098848140956,
+            0.9101122465048178
+          ]
+        ],
+        "world_to_camera_t": [
+          -2.5910994625108525,
+          0.9052061058275572,
+          0.3951963056117231
+        ]
+      },
+      {
+        "name": "006_kf068_f4008.jpg",
+        "frame_index": 4008,
+        "timestamp_sec": 66.82712852365026,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9173015649326842,
+            0.18552626958543486,
+            0.35233200573572815
+          ],
+          [
+            -0.11966381834396003,
+            0.9723646691629422,
+            -0.20046825370363702
+          ],
+          [
+            -0.3797873214726794,
+            0.14172844971054538,
+            0.9141524145301226
+          ]
+        ],
+        "world_to_camera_t": [
+          -2.390979251013504,
+          1.1017797599453607,
+          0.3559370165307505
+        ]
+      },
+      {
+        "name": "006_kf069_f4067.jpg",
+        "frame_index": 4067,
+        "timestamp_sec": 67.81086120401338,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9203961620456884,
+            0.2161775689757971,
+            0.3257885258312229
+          ],
+          [
+            -0.1467534690988233,
+            0.9633318201667925,
+            -0.22462240218107182
+          ],
+          [
+            -0.362400778419456,
+            0.15893100051861803,
+            0.9183717182465515
+          ]
+        ],
+        "world_to_camera_t": [
+          -2.3296640624885905,
+          1.1475579346701192,
+          0.296128366898198
+        ]
+      },
+      {
+        "name": "006_kf070_f4131.jpg",
+        "frame_index": 4131,
+        "timestamp_sec": 68.87796106067846,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9112054179906924,
+            0.20186114308527836,
+            0.35910550697074034
+          ],
+          [
+            -0.12583886892410923,
+            0.9664421837383244,
+            -0.22395107626220465
+          ],
+          [
+            -0.3922617305987273,
+            0.15887600323335085,
+            0.9060293319226965
+          ]
+        ],
+        "world_to_camera_t": [
+          -2.4240716142867593,
+          1.0867919600472253,
+          0.3534135822418924
+        ]
+      },
+      {
+        "name": "006_kf071_f4185.jpg",
+        "frame_index": 4185,
+        "timestamp_sec": 69.77832656473961,
+        "registered": true,
+        "camera_group": "fern_006",
+        "intrinsics_source": "focal_prior",
+        "initial_K": [
+          [
+            1216.0,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1216.0,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "final_K": [
+          [
+            1215.6811226538073,
+            0.0,
+            640.0
+          ],
+          [
+            0.0,
+            1215.6811226538073,
+            360.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_to_camera_R": [
+          [
+            0.9155826806408411,
+            0.19182044905996454,
+            0.3534307148975103
+          ],
+          [
+            -0.11655062379993997,
+            0.9677551401233411,
+            -0.2233068311912948
+          ],
+          [
+            -0.38486920765680455,
+            0.1632632968161739,
+            0.9084166383936049
+          ]
+        ],
+        "world_to_camera_t": [
+          -2.3735791477503434,
+          1.0556301495563887,
+          0.34650721990955347
+        ]
+      }
+    ],
+    "largest_internal_gap_sec": 48.38630912565695,
+    "largest_gap_including_clip_ends_sec": 48.38630912565695,
+    "registrations_inside_original_gap": 1
+  }
+}
